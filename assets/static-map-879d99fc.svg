@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- Map elements -->
+  <rect x="100" y="100" width="600" height="400" fill="#e0e0e0" stroke="#999999" stroke-width="2"/>
+  
+  <!-- Roads -->
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#cccccc" stroke-width="20"/>
+  <line x1="400" y1="100" x2="400" y2="500" stroke="#cccccc" stroke-width="15"/>
+  
+  <!-- Location pin -->
+  <circle cx="400" cy="300" r="15" fill="#7B2CBF" stroke="#FFFFFF" stroke-width="3"/>
+  <path d="M400,300 L400,250 L420,280 Z" fill="#7B2CBF" stroke="#FFFFFF" stroke-width="2"/>
+  
+  <!-- Store location text -->
+  <text x="400" y="330" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Lick It! Dessert Cafe</text>
+  <text x="400" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#666666">218 Bedok North Street 1, #01-09</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="200" r="5" fill="#FF50AA" opacity="0.7"/>
+  <circle cx="600" cy="400" r="5" fill="#00FFB2" opacity="0.7"/>
+  <circle cx="300" cy="400" r="5" fill="#9D4EDD" opacity="0.7"/>
+  <circle cx="500" cy="200" r="5" fill="#7B2CBF" opacity="0.7"/>
+  
+  <!-- Map controls visual -->
+  <rect x="720" y="150" width="30" height="100" rx="5" fill="white" stroke="#cccccc"/>
+  <text x="735" y="180" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">+</text>
+  <line x1="725" y1="200" x2="745" y2="200" stroke="#cccccc" stroke-width="1"/>
+  <text x="735" y="230" font-family="Arial" font-size="20" text-anchor="middle" fill="#333333">-</text>
+  
+  <!-- North indicator -->
+  <circle cx="735" y="100" r="15" fill="white" stroke="#cccccc"/>
+  <text x="735" y="105" font-family="Arial" font-size="12" text-anchor="middle" fill="#333333">N</text>
+</svg> 
